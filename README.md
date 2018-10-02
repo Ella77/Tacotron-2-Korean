@@ -46,3 +46,5 @@ This command will get the text (sentences) in Hyperparam.py file and predict the
 This command get the data in tacotron_output/inference folder, using wavenet pretrained model (in wavenet_trained_logs/wavenet_pretrained) to synthesize audio, this step could take a while (30 minutes or more). I'm finding the way to apply Paralell Wavenet to improve this.
 The synthesized audios will be stored in wavenet_output folder.
 
+
+output examples here: https://clyp.it/user/nspiu1ef
