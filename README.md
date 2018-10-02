@@ -46,6 +46,12 @@ This command will get the text (sentences) in Hyperparam.py file and predict the
 This command get the data in tacotron_output/inference folder, using wavenet pretrained model (in wavenet_trained_logs/wavenet_pretrained) to synthesize audio, this step could take a while (30 minutes or more). I'm finding the way to apply Paralell Wavenet to improve this.
 The synthesized audios will be stored in wavenet_output folder.
 
+Note:
+	If your GPU has less memory:
+		1. reduce the clip_mels_length parameter in Hyperparam.py (this will skip long files) or split audio into smaller parts before training. 
+		2. increase outputs_per_step (recommended maximum is 3)
+		3. reduce mel_channels <-- this does reduce the predicted mel spectrogram quality. 
+		4. ask your wife for money and buy a good one.
 
 output examples here: https://clyp.it/user/nspiu1ef
 Reference: https://github.com/Rayhane-mamah
