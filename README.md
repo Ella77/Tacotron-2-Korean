@@ -1,4 +1,4 @@
-# Tacotron-2
+# Tacotron-2-Korean
 The implementation of Tacotron 2 on Korean language dataset (KSS, Zeroth_Korean..) 
 
 Preparing data and transcript as the format of samples in LJSpeech-1.1 folder
