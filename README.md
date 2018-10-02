@@ -48,3 +48,4 @@ The synthesized audios will be stored in wavenet_output folder.
 
 
 output examples here: https://clyp.it/user/nspiu1ef
+Reference: https://github.com/Rayhane-mamah
