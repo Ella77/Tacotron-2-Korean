@@ -1,0 +1,6 @@
+model_checkpoint_path: "wavenet_model.ckpt-164000"
+all_model_checkpoint_paths: "wavenet_model.ckpt-156000"
+all_model_checkpoint_paths: "wavenet_model.ckpt-158000"
+all_model_checkpoint_paths: "wavenet_model.ckpt-160000"
+all_model_checkpoint_paths: "wavenet_model.ckpt-162000"
+all_model_checkpoint_paths: "wavenet_model.ckpt-164000"

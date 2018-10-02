@@ -1,0 +1,6 @@
+model_checkpoint_path: "tacotron_model.ckpt-77000"
+all_model_checkpoint_paths: "tacotron_model.ckpt-73000"
+all_model_checkpoint_paths: "tacotron_model.ckpt-74000"
+all_model_checkpoint_paths: "tacotron_model.ckpt-75000"
+all_model_checkpoint_paths: "tacotron_model.ckpt-76000"
+all_model_checkpoint_paths: "tacotron_model.ckpt-77000"
