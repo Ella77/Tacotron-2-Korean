@@ -29,7 +29,7 @@ Step 4: Train Wavenet
 
 		python wavenet_vocoder/train.py
 	
-This command using data in tacotron_output folder as input, to train a wavenet model to synthesize the audio.
+This command using data in tacotron_output folder as input, to train a wavenet model to synthesize the audio. When training, you will see the synthesized wav of training (in wavenet_trained_logs/wavs) has much more quality compare to synthesized wav of evaluating (in wavenet_trained_logs/eval/wavs). Don't worry, because the training uses GTA but evaluating does not. 
 
 Step 5: inference
 	
