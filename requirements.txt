@@ -1,0 +1,13 @@
+tensorflow
+keras
+pyaudio
+scikit-learn
+unidecode
+inflect
+scipy
+librosa
+matplotlib
+tqdm
+numpy
+tensorflow-gpu==1.9
+num2words
