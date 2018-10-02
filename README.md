@@ -47,11 +47,11 @@ This command get the data in tacotron_output/inference folder, using wavenet pre
 The synthesized audios will be stored in wavenet_output folder.
 
 Note:
-	If your GPU has less memory:
-		1. reduce the clip_mels_length parameter in Hyperparam.py (this will skip long files) or split audio into smaller parts before training. 
-		2. increase outputs_per_step (recommended maximum is 3)
-		3. reduce mel_channels <-- this does reduce the predicted mel spectrogram quality. 
-		4. ask your wife for money and buy a good one.
+If your GPU has less memory:
+1. reduce the clip_mels_length parameter in Hyperparam.py (this will skip long files) or split audio into smaller parts before training. 
+2. increase outputs_per_step (recommended maximum is 3)
+3. reduce mel_channels <-- this does reduce the predicted mel spectrogram quality. 
+4. ask your wife for money and buy a good one.
 
 output examples here: https://clyp.it/user/nspiu1ef
 Reference: https://github.com/Rayhane-mamah
