@@ -1,5 +1,48 @@
 # Tacotron-2
-The implementation of Tacotron 2 on Korean language dataset (KSS, Zeroth_Korean..) with just few samples. 
+The implementation of Tacotron 2 on Korean language dataset (KSS, Zeroth_Korean..) 
 
-Preparing data and transcript:
+Preparing data and transcript as the format of samples in LJSpeech-1.1 folder
+
+Step 1: Preprocessing audio.
   
+		python Utils/AudioProcessing/AudioPreprocess.py
+
+Above command will process wav files and transcript.txt file in LJSpeech-1.1 folder and transform them to numpy array, then store in Tacotron_input folder. 
+
+Step 2: Train Tacotron
+
+		python TacotronModel/train.py
+		 
+This command trains the Tacotron model using data from Tacotron_input folder. The model will be saved  by interval in TacotronModel/train.py arguments. 
+If you do not want to resume the training, use: 
+
+		python TacotronModel/train.py --restore=False
+		
+		
+Step 3: Synthesize Tacotron
+
+		python TacotronModel/Synthesize.py
+		
+Using Tacotron mode, this command synthesizes data (in Tacotron_input folder) to mel spectrograms (will be stored in tacotron_output/gta folder). The tacotron_output folder will hold input data of wavenet_vocoder
+
+Step 4: Train Wavenet
+
+		python wavenet_vocoder/train.py
+	
+This command using data in tacotron_output folder as input, to train a wavenet model to synthesize the audio.
+
+Step 5: inference
+	
+	5-1: Tacotron inference:
+		
+		python TacotronModel/Synthesize.py --mode=inference
+	
+This command will get the text (sentences) in Hyperparam.py file and predict the mel spectrogram, then store in tacotron_output/inference folder
+		
+	5-2: Wavenet inference
+	
+		python wavenet_vocoder/synthesize.py
+
+This command get the data in tacotron_output/inference folder, using wavenet pretrained model (in wavenet_trained_logs/wavenet_pretrained) to synthesize audio, this step could take a while (30 minutes or more). I'm finding the way to apply Paralell Wavenet to improve this.
+The synthesized audios will be stored in wavenet_output folder.
+
