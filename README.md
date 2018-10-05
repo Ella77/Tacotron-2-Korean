@@ -1,5 +1,6 @@
 # Tacotron-2-Korean
-The implementation of Tacotron 2 on Korean language dataset (KSS, Zeroth_Korean..) 
+The implementation of Tacotron 2 on Korean language dataset (KSS, Zeroth_Korean..)
+
  Datasets:
  	https://www.kaggle.com/bryanpark/korean-single-speaker-speech-dataset
 	http://www.openslr.org/40/
