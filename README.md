@@ -2,9 +2,10 @@
 The implementation of Tacotron 2 on Korean language dataset (KSS, Zeroth_Korean..)
 
  Datasets:
- 	https://www.kaggle.com/bryanpark/korean-single-speaker-speech-dataset
-	
+ 	
+	https://www.kaggle.com/bryanpark/korean-single-speaker-speech-dataset
 	http://www.openslr.org/40/
+	
 remember to reformat the transcript file to match the format of this repo transcript.txt. Or you can change the code to match your file format.
 
 Preparing data and transcript as the format of samples in LJSpeech-1.1 folder
