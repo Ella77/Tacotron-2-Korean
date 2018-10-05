@@ -53,5 +53,8 @@ If your GPU has less memory:
 3. reduce mel_channels <-- this does reduce the predicted mel spectrogram quality. 
 4. ask your wife for money and buy a good one.
 
+I wanted to upload pretrained checkpoint files so you can save training time. But Guthub does not allow uploadding large file as checkpoin. So, you can delete 'Tacotron_pretrained_logs' and 'wavenet_pretrained_logs' and train from scratch. Or contact me to get the pretrained checkpoint files.
+
+
 output examples here: https://clyp.it/user/nspiu1ef
 Reference: https://github.com/Rayhane-mamah
