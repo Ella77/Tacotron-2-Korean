@@ -66,7 +66,12 @@ I wanted to upload pretrained checkpoint files so you can save training time. Bu
 output examples here: https://clyp.it/user/nspiu1ef
 
 Reference: 
+
 https://github.com/Rayhane-mamah
+
 https://deepmind.com/blog/wavenet-generative-model-raw-audio/
+
 https://github.com/r9y9/wavenet_vocoder
+
 https://github.com/keithito/tacotron
+
