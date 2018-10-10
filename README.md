@@ -62,12 +62,12 @@ If your GPU has less memory:
 
 I wanted to upload pretrained checkpoint files so you can save training time. But Guthub does not allow uploadding large file as checkpoin. So, you can delete 'Tacotron_pretrained_logs' and 'wavenet_pretrained_logs' and train from scratch. Or contact me to get the pretrained checkpoint files.
 
-Becareful of create sentences.txt file with advanced editors, It might generate a strange format character at the begining. Recommend to use plain notepad
+Becareful of creating sentences.txt file with advanced editors, It might generate a strange format character at the begining. Recommend to use plain notepad
 
 output examples here: https://clyp.it/user/nspiu1ef
 
 Reference: 
-
+<list>
 https://github.com/Rayhane-mamah
 
 https://deepmind.com/blog/wavenet-generative-model-raw-audio/
@@ -75,4 +75,4 @@ https://deepmind.com/blog/wavenet-generative-model-raw-audio/
 https://github.com/r9y9/wavenet_vocoder
 
 https://github.com/keithito/tacotron
-
+</list>
