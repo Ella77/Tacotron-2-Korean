@@ -62,6 +62,7 @@ If your GPU has less memory:
 
 I wanted to upload pretrained checkpoint files so you can save training time. But Guthub does not allow uploadding large file as checkpoin. So, you can delete 'Tacotron_pretrained_logs' and 'wavenet_pretrained_logs' and train from scratch. Or contact me to get the pretrained checkpoint files.
 
+Becareful of create sentences.txt file with advanced editors, It might generate a strange format character at the begining. Recommend to use plain notepad
 
 output examples here: https://clyp.it/user/nspiu1ef
 
